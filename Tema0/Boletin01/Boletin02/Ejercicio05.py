@@ -14,8 +14,10 @@ for i in range(0, 100):
 # Pedir al usuario que introduzca un número entre 1 y 100
 n = int(input("Introduce un número entre 1 y 100: para contar cuántas veces aparece en la lista: "))
 
+# Contar cuántas veces aparece el número n en la lista
 for i in range(0, 100):
     if lista[i] == n:
         contador_n += 1
 
+# Mostrar el resultado
 print("El número", n, "aparece", contador_n, "veces en la lista.")
